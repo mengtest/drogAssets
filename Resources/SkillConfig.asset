@@ -19,6 +19,8 @@ MonoBehaviour:
     StateName: Idle
     AnimationName: W_Idle
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 999999
     SkillRollEndTime: 999999
     ShakeBackBeginTime: 999999
@@ -34,6 +36,8 @@ MonoBehaviour:
     StateName: Run
     AnimationName: W_Run
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 999999
     SkillRollEndTime: 999999
     ShakeBackBeginTime: 999999
@@ -49,6 +53,8 @@ MonoBehaviour:
     StateName: BeAttacked
     AnimationName: W_BeAttacked
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 0.3
     SkillRollEndTime: 0.3
     ShakeBackBeginTime: 0.3
@@ -64,6 +70,8 @@ MonoBehaviour:
     StateName: Dead
     AnimationName: W_Dead
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 999999
     SkillRollEndTime: 999999
     ShakeBackBeginTime: 999999
@@ -79,6 +87,8 @@ MonoBehaviour:
     StateName: W_Putonggongji
     AnimationName: W_Putonggongji
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 1.333
     SkillRollEndTime: 0.2
     ShakeBackBeginTime: 0.7
@@ -102,6 +112,8 @@ MonoBehaviour:
     StateName: Dodge
     AnimationName: W_Shanbi
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 0.6
     SkillRollEndTime: 0
     ShakeBackBeginTime: 0.55
@@ -128,6 +140,8 @@ MonoBehaviour:
     StateName: W_Xuanfengzhan
     AnimationName: W_Xuanfengzhan
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 2
     SkillRollEndTime: 0
     ShakeBackBeginTime: 2
@@ -199,6 +213,8 @@ MonoBehaviour:
     StateName: W_Banyuezhan
     AnimationName: W_Banyuezhan
     SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 3.367
     SkillRollEndTime: 1.066
     ShakeBackBeginTime: 2.333
@@ -246,9 +262,40 @@ MonoBehaviour:
       IfFollowAnimationDestroy: 0
       SkillSEBeginTime: 0.4
       SkillSEDuringTime: 5
+    BlockSEName: 
+    NextSkillID: -1
     DuringTime: 1
     SkillRollEndTime: 0.2
     ShakeBackBeginTime: 0.6
+    CoolingTime: 10
+    CostMP: 10
+    ATKs: []
+    BUFFs:
+    - RoleAttribute: 1
+      BeginTime: 0.4
+      RoleTimes: 5
+      EachRoleTime: 1
+      EffectValue: 10
+      IfRecycle: 0
+    - RoleAttribute: 4
+      BeginTime: 0.4
+      RoleTimes: 1
+      EachRoleTime: 5
+      EffectValue: 4
+      IfRecycle: 1
+    Bullets: []
+    MOVEs: []
+  - ID: 9
+    SkillName: gedang
+    SkillIcon: {fileID: 21300000, guid: 64fb1d8225d092d41a306021a7861cb4, type: 3}
+    StateName: Gedang
+    AnimationName: W_Gedang
+    SkillSEList: []
+    BlockSEName: 
+    NextSkillID: -1
+    DuringTime: 1.2
+    SkillRollEndTime: 0.1
+    ShakeBackBeginTime: 1.1
     CoolingTime: 10
     CostMP: 10
     ATKs: []
