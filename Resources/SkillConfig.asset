@@ -20,6 +20,7 @@ MonoBehaviour:
     AnimationName: W_Idle
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 999999
     SkillRollEndTime: 999999
@@ -37,6 +38,7 @@ MonoBehaviour:
     AnimationName: W_Run
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 999999
     SkillRollEndTime: 999999
@@ -54,6 +56,7 @@ MonoBehaviour:
     AnimationName: W_BeAttacked
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 0.3
     SkillRollEndTime: 0.3
@@ -71,6 +74,7 @@ MonoBehaviour:
     AnimationName: W_Dead
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 999999
     SkillRollEndTime: 999999
@@ -88,6 +92,7 @@ MonoBehaviour:
     AnimationName: W_Putonggongji
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 1.333
     SkillRollEndTime: 0.2
@@ -103,6 +108,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 10
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     BUFFs: []
     Bullets: []
     MOVEs: []
@@ -113,6 +123,7 @@ MonoBehaviour:
     AnimationName: W_Shanbi
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 0.6
     SkillRollEndTime: 0
@@ -128,6 +139,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 0
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     BUFFs: []
     Bullets: []
     MOVEs:
@@ -141,6 +157,7 @@ MonoBehaviour:
     AnimationName: W_Xuanfengzhan
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 2
     SkillRollEndTime: 0
@@ -156,6 +173,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     - SkillAttackJudgeBeginTime: 0.4
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -164,6 +186,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     - SkillAttackJudgeBeginTime: 0.7
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -172,6 +199,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     - SkillAttackJudgeBeginTime: 1
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -180,6 +212,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     - SkillAttackJudgeBeginTime: 1.3
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -188,6 +225,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     - SkillAttackJudgeBeginTime: 1.6
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -196,6 +238,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     - SkillAttackJudgeBeginTime: 1.9
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -204,6 +251,11 @@ MonoBehaviour:
       AttackJudgeAreaWidth: 0
       AttackJudgeAreaHeight: 0
       SkillAttackJudgeDamageRatio: 2
+      AAF:
+        ftype: 0
+        BeakBackDis: 0
+        CutSpeed: 0
+        DuringTime: 0
     BUFFs: []
     Bullets: []
     MOVEs: []
@@ -214,6 +266,7 @@ MonoBehaviour:
     AnimationName: W_Banyuezhan
     SkillSEList: []
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 3.367
     SkillRollEndTime: 1.066
@@ -235,12 +288,18 @@ MonoBehaviour:
         AttackJudgeAreaWidth: 0
         AttackJudgeAreaHeight: 0
         SkillAttackJudgeDamageRatio: 0
+        AAF:
+          ftype: 0
+          BeakBackDis: 0
+          CutSpeed: 0
+          DuringTime: 0
       FlySpeed: 5
       MaxDuringTime: 5
       IfPenetrate: 1
       IfRoleOnMultipleGoals: 1
       AttackJudgeTimes: 1
       EachAttackTime: 0
+      BUFF: 0
     MOVEs: []
   - ID: 8
     SkillName: huixuejiayisu
@@ -263,6 +322,7 @@ MonoBehaviour:
       SkillSEBeginTime: 0.4
       SkillSEDuringTime: 5
     BlockSEName: 
+    BlockSEDuringTime: 0
     NextSkillID: -1
     DuringTime: 1
     SkillRollEndTime: 0.2
@@ -291,7 +351,8 @@ MonoBehaviour:
     StateName: Gedang
     AnimationName: W_Gedang
     SkillSEList: []
-    BlockSEName: 
+    BlockSEName: W_Block
+    BlockSEDuringTime: 1
     NextSkillID: -1
     DuringTime: 1.2
     SkillRollEndTime: 0.1
