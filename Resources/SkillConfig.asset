@@ -111,8 +111,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     BUFFs: []
     Bullets: []
     MOVEs: []
@@ -142,8 +146,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     BUFFs: []
     Bullets: []
     MOVEs:
@@ -176,8 +184,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     - SkillAttackJudgeBeginTime: 0.4
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -189,8 +201,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     - SkillAttackJudgeBeginTime: 0.7
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -202,8 +218,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     - SkillAttackJudgeBeginTime: 1
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -215,8 +235,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     - SkillAttackJudgeBeginTime: 1.3
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -228,8 +252,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     - SkillAttackJudgeBeginTime: 1.6
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -241,8 +269,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     - SkillAttackJudgeBeginTime: 1.9
       SkillAttackJudgeDistance: 0
       SkillAttackJudgeAreaType: 2
@@ -254,8 +286,12 @@ MonoBehaviour:
       AAF:
         ftype: 0
         BeakBackDis: 0
+        FloatingHeight: 0
+        FloatingDuringTime: 0
         CutSpeed: 0
-        DuringTime: 0
+        CutSpeedDuringTime: 0
+        SuckBloodFromDamgeRatio: 0
+        CutMp: 0
     BUFFs: []
     Bullets: []
     MOVEs: []
@@ -276,30 +312,34 @@ MonoBehaviour:
     ATKs: []
     BUFFs: []
     Bullets:
-    - BulletSEName: LeiDianQiu
+    - BulletSEName: LeiDianQiu1
       BulletFireTime: 1.4
       BulletFireEnemyPos: 0
       Attack:
         SkillAttackJudgeBeginTime: 0
         SkillAttackJudgeDistance: 0
         SkillAttackJudgeAreaType: 0
-        SkillAttackJudgeAreaRadius: 0
+        SkillAttackJudgeAreaRadius: 1
         AttackJudgeAreaAngle: 0
         AttackJudgeAreaWidth: 0
         AttackJudgeAreaHeight: 0
-        SkillAttackJudgeDamageRatio: 0
+        SkillAttackJudgeDamageRatio: 0.5
         AAF:
-          ftype: 0
+          ftype: 8
           BeakBackDis: 0
+          FloatingHeight: 0
+          FloatingDuringTime: 0
           CutSpeed: 0
-          DuringTime: 0
-      FlySpeed: 5
+          CutSpeedDuringTime: 0
+          SuckBloodFromDamgeRatio: 0
+          CutMp: 0
+      FlySpeed: 0
       MaxDuringTime: 5
       IfPenetrate: 1
-      IfRoleOnMultipleGoals: 1
-      AttackJudgeTimes: 1
-      EachAttackTime: 0
-      BUFF: 0
+      IfRoleOnMultipleGoals: 0
+      AttackJudgeTimes: 10
+      EachAttackTime: 0.5
+      CutSpeedRatio: 0.1
     MOVEs: []
   - ID: 8
     SkillName: huixuejiayisu
@@ -336,19 +376,21 @@ MonoBehaviour:
       RoleTimes: 5
       EachRoleTime: 1
       EffectValue: 10
+      EffectRatio: 0
       IfRecycle: 0
     - RoleAttribute: 4
       BeginTime: 0.4
       RoleTimes: 1
       EachRoleTime: 5
       EffectValue: 4
+      EffectRatio: 0
       IfRecycle: 1
     Bullets: []
     MOVEs: []
   - ID: 9
     SkillName: gedang
     SkillIcon: {fileID: 21300000, guid: 64fb1d8225d092d41a306021a7861cb4, type: 3}
-    StateName: Gedang
+    StateName: Block
     AnimationName: W_Gedang
     SkillSEList: []
     BlockSEName: W_Block
@@ -356,22 +398,10 @@ MonoBehaviour:
     NextSkillID: -1
     DuringTime: 1.2
     SkillRollEndTime: 0.1
-    ShakeBackBeginTime: 1.1
-    CoolingTime: 10
-    CostMP: 10
+    ShakeBackBeginTime: 0.3
+    CoolingTime: 1.2
+    CostMP: 0
     ATKs: []
-    BUFFs:
-    - RoleAttribute: 1
-      BeginTime: 0.4
-      RoleTimes: 5
-      EachRoleTime: 1
-      EffectValue: 10
-      IfRecycle: 0
-    - RoleAttribute: 4
-      BeginTime: 0.4
-      RoleTimes: 1
-      EachRoleTime: 5
-      EffectValue: 4
-      IfRecycle: 1
+    BUFFs: []
     Bullets: []
     MOVEs: []

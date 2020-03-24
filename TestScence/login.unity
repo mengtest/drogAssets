@@ -1260,6 +1260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonLogin: {fileID: 0}
   buttonRegistered: {fileID: 0}
+  ifLogin: 0
 --- !u!1 &1755564158
 GameObject:
   m_ObjectHideFlags: 0
