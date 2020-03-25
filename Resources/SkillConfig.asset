@@ -31,6 +31,7 @@ MonoBehaviour:
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 1
     SkillName: bengpao
     SkillIcon: {fileID: 0}
@@ -49,6 +50,7 @@ MonoBehaviour:
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 2
     SkillName: shouji
     SkillIcon: {fileID: 0}
@@ -67,6 +69,7 @@ MonoBehaviour:
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 3
     SkillName: siwang
     SkillIcon: {fileID: 0}
@@ -85,6 +88,7 @@ MonoBehaviour:
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 4
     SkillName: putonggongji
     SkillIcon: {fileID: 21300000, guid: 29348afa22d2d8849b45513e882e481e, type: 3}
@@ -113,13 +117,14 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 5
     SkillName: shanbi
     SkillIcon: {fileID: 21300000, guid: dc569786b1378d140b50ddc13c8a47a2, type: 3}
@@ -148,7 +153,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -158,6 +163,7 @@ MonoBehaviour:
     - BeginTime: 0
       DuringTime: 0.6
       Speed: 2
+    Floats: []
   - ID: 6
     SkillName: xuanfengzhan
     SkillIcon: {fileID: 21300000, guid: 3c56a2dcd3fa04745a57f36f56a1d517, type: 3}
@@ -186,7 +192,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -203,7 +209,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -220,7 +226,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -237,7 +243,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -254,7 +260,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -271,7 +277,7 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
@@ -288,13 +294,14 @@ MonoBehaviour:
         BeakBackDis: 0
         FloatingHeight: 0
         FloatingDuringTime: 0
-        CutSpeed: 0
+        CutSpeedRatio: 0
         CutSpeedDuringTime: 0
         SuckBloodFromDamgeRatio: 0
         CutMp: 0
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 7
     SkillName: banyuezhan
     SkillIcon: {fileID: 21300000, guid: de5a9e700f73a6c46a5844d5219e88ce, type: 3}
@@ -323,13 +330,13 @@ MonoBehaviour:
         AttackJudgeAreaAngle: 0
         AttackJudgeAreaWidth: 0
         AttackJudgeAreaHeight: 0
-        SkillAttackJudgeDamageRatio: 0.5
+        SkillAttackJudgeDamageRatio: 0
         AAF:
-          ftype: 8
+          ftype: 2
           BeakBackDis: 0
           FloatingHeight: 0
           FloatingDuringTime: 0
-          CutSpeed: 0
+          CutSpeedRatio: 0
           CutSpeedDuringTime: 0
           SuckBloodFromDamgeRatio: 0
           CutMp: 0
@@ -341,6 +348,7 @@ MonoBehaviour:
       EachAttackTime: 0.5
       CutSpeedRatio: 0.1
     MOVEs: []
+    Floats: []
   - ID: 8
     SkillName: huixuejiayisu
     SkillIcon: {fileID: 21300000, guid: ae68996b09caffc44bab051ff2eb0d00, type: 3}
@@ -387,6 +395,7 @@ MonoBehaviour:
       IfRecycle: 1
     Bullets: []
     MOVEs: []
+    Floats: []
   - ID: 9
     SkillName: gedang
     SkillIcon: {fileID: 21300000, guid: 64fb1d8225d092d41a306021a7861cb4, type: 3}
@@ -405,3 +414,25 @@ MonoBehaviour:
     BUFFs: []
     Bullets: []
     MOVEs: []
+    Floats: []
+  - ID: 9
+    SkillName: fukong
+    SkillIcon: {fileID: 0}
+    StateName: Floating
+    AnimationName: W_Hitfly
+    SkillSEList: []
+    BlockSEName: 
+    BlockSEDuringTime: 0
+    NextSkillID: -1
+    DuringTime: 999999
+    SkillRollEndTime: 0
+    ShakeBackBeginTime: 999999
+    CoolingTime: 0
+    CostMP: 0
+    ATKs: []
+    BUFFs: []
+    Bullets: []
+    MOVEs: []
+    Floats:
+    - BeginTime: 0
+      UPv: 6

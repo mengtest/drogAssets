@@ -274,10 +274,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  keepTime: 0
-  reduceTime: 0
-  amplitude: 0
-  drag: 0
+  keepTime: 0.3
+  reduceTime: 0.2
+  amplitude: 0.3
+  drag: 0.1
 --- !u!1 &1574783268
 GameObject:
   m_ObjectHideFlags: 0
